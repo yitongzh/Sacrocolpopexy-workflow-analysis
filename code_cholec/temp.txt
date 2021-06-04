@@ -1,0 +1,87 @@
+conv1.weight torch.Size([64, 3, 3, 3, 3])
+conv1.bias torch.Size([64])
+layer_0
+(64, 3, 3, 3, 3)
+(64,)
+()
+
+conv2.weight torch.Size([128, 64, 3, 3, 3])
+conv2.bias torch.Size([128])
+layer_2
+(128, 64, 3, 3, 3)
+(128,)
+()
+
+conv3a.weight torch.Size([256, 128, 3, 3, 3])
+conv3a.bias torch.Size([256])
+layer_4
+(256, 128, 3, 3, 3)
+(256,)
+()
+
+conv3b.weight torch.Size([256, 256, 3, 3, 3])
+conv3b.bias torch.Size([256])
+layer_5
+(256, 256, 3, 3, 3)
+(256,)
+()
+
+conv4a.weight torch.Size([512, 256, 3, 3, 3])
+conv4a.bias torch.Size([512])
+layer_7
+(512, 256, 3, 3, 3)
+(512,)
+()
+
+conv4b.weight torch.Size([512, 512, 3, 3, 3])
+conv4b.bias torch.Size([512])
+
+conv5a.weight torch.Size([512, 512, 3, 3, 3])
+conv5a.bias torch.Size([512])
+
+conv5b.weight torch.Size([512, 512, 3, 3, 3])
+conv5b.bias torch.Size([512])
+
+
+fc6.weight torch.Size([4096, 8192])
+fc6.bias torch.Size([4096])
+layer_15
+(8192, 4096)
+(4096,)
+()
+
+
+fc7.weight torch.Size([4096, 4096])
+fc7.bias torch.Size([4096])
+layer_17
+(4096, 4096)
+(4096,)
+()
+
+fc_class.weight torch.Size([101, 4096])
+fc_class.bias torch.Size([101])
+layer_19
+(4096, 487)
+(487,)
+()
+
+fc_phase.weight torch.Size([7, 4096])
+fc_phase.bias torch.Size([7])
+
+
+
+
+layer_10
+(512, 512, 3, 3, 3)
+(512,)
+()
+layer_11
+(512, 512, 3, 3, 3)
+(512,)
+()
+
+layer_8
+(512, 512, 3, 3, 3)
+(512,)
+()
+
